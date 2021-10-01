@@ -1,0 +1,61 @@
+.round-6{
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 1200px;
+}
+
+.top-10{
+    border-radius: 10px;
+    width: 59px;
+    position:relative;
+    top: 271px;
+    right:1100px;
+}
+.watch-now{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffff;
+    position: relative;
+    top: 200px;
+    left:174px
+}
+
+.synopsis{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: #ffff;
+    position: relative;
+    width: 871px;
+    top: 210px;
+    left: 100px;
+}
+button{
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px 25px;  
+    
+}
+.watch{
+    background-color: #ffff;
+    color: black;
+    position: relative;
+    top: 230px;
+    left: 150px;
+    width: 300px;
+    font-size: 30px;
+}
+.more-info{
+    background-color: dimgray;
+    opacity: 5.8;
+    color: #ffff;
+    position: relative;
+    top: 233px;
+    left: 160px;
+    width: 400px;
+    font-size: 30px;
+}
