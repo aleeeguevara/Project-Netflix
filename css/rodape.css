@@ -1,0 +1,52 @@
+.footer{
+    margin: 20px auto 0;
+    max-width: 61%
+}
+.social-link{
+    font-size: 40px;
+    color: grey;
+    
+}
+.social-link i{
+    margin: 3px 10px;
+}
+.footer-a{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+footer a{
+    width: 22%;
+    font-size: 17px;
+    color: grey;
+    padding: 13px 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.btn-footer{
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: grey;
+    width: 127px;
+    padding: 10px 5px;
+    border-radius: 2px;
+    border: solid 1px gray;
+    margin: 20px 0px;
+
+}
+.footer-service{
+    display: block;
+    color: grey;
+}
+.footer-copyright{
+    display: inline;
+    color: grey;
+    font-size: 15px;
+
+}
