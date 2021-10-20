@@ -1,56 +1,69 @@
-.wrapper{
-    margin-left: 20px;
-    margin-right: 20px;
+html{
+    overflow-x: hidden;
 }
 
-.gallery-row{
-    display: flex;
-    padding-left: 0px;
-    overflow: hidden;
+.title-list{
+    font-size: 30px;
+    color: #ffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    transform: translate(11px, -46px);
+
 }
-.gallery-row2{
-    display: none;
+
+.img-gallery{
+    margin-left: 5px;
+    margin-right: 20px; 
+    position: relative;
+    bottom: 264px;
 }
-.img-wrap{
-    display: block;
-    list-style: none
-}
-.gallery-row img{
+
+.img-gallery img{
     border-radius: 5px;
     flex-direction: row;
-    margin: 0px 3px 0px 3px;      
+    margin: 0px 3px 0px 3px;  
+    height: 224px;
+    width: 364px;  
 }
-.btn-prev{
-    position: absolute;
-    bottom: -250px;
-    float: left;
-    line-height: 151px;
-    opacity: 0.4;
-    background: #141414;
-    border: none;
+.slick-slide .slide-active{
+    width: 100px;
 }
+
 .fa-chevron-left{
     font-size: 50px;
     color: #ffff;
     font-weight: bold;
 }
   
-.btn-next{
-    z-index: 1;
-    float: right;
-    line-height: 165px;
-    position: relative;
-    bottom: 205px;
-    right: 15px;
+.slick-arrow-prev{
     opacity: 0.4;
     background: #141414;
     border: none;
     color: #ffff;
+    height: 210px;
+    position: relative;
+    z-index: 1;
+    transform: translate(-2px, 200px);
+    
+
 }
+.slick-arrow-next{
+    opacity: 0.4;
+    background: #141414;
+    border: none;
+    color: #ffff;
+    height: 210px;
+    float: right;
+    transform: translate(13px, -200px);
+    
+}
+
 .fa-chevron-right{
     font-size: 50px;
     color: #ffff;
     font-weight: bold;
+    
 }  
 .title-row{
     font-size: 30px;
@@ -58,5 +71,20 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0px;
+    position: relative;
+    bottom: 237px;
+}
+
+.watching{
+    margin-left: 5px;
+    margin-right: 20px; 
+    transform: translate(-2px, -446px);
+}
+.watching img{
+    border-radius: 5px;
+    flex-direction: row;
+    margin: 0px 3px 0px 3px;  
+    height: 224px;
+    width: 364px; 
 }
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/trailer.css">
     <link rel="stylesheet" href="./css/galeria.css">
@@ -12,72 +14,85 @@
     <link rel="shortcut icon" href="./img/4202092logomovienetflixsocialsocialmediavideo-115596_115705.ico">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
     <script src="https://kit.fontawesome.com/a92b7af161.js" crossorigin="anonymous"></script>
+    
     <title class="title">Home - Netflix</title>
 </head>
 <body>
     <header class="background-page">
-    <nav class="navbar">
-        <div class="container">
-            <img class="netflix" src="./img/netflix_logo_icon_170918.png" alt="logo netflix">
+        <nav class="navbar">
+            <div class="container">
+                <img class="netflix" src="./img/netflix_logo_icon_170918.png" alt="logo netflix">
 
-            <a class="navbar-options" href="#">Home</a>
-            <a class="navbar-options" href="#">TV shows</a>
-            <a class="navbar-options" href="#">Movies</a>
-            <a class="navbar-options" href="#">New & Popular</a>
-            <a class="navbar-options" href="#">My list</a>
-            
-            <i class="fas fa-search"></i>
-            <i class="fas fa-bell"></i>
-            <img src="./img/flat,1000x1000,075,f.u2.jpg" alt="profile picture" class="profile-img">
-            <i class="fas fa-sort-down"></i>            
-        </div>
-    </nav>   
-    <div>
-        <img class="round-6" src="./img/AAAABTVKvb24ajFpmJrw7vxLLsr1oZfjkxuoWzmwiMM9gE08AmFBwjFmZntDqUtWsQEPmv4c1mqM3ChyPruYARd2x05N5-LHGLHrFYdPYmkqwZ23ObUzEdMAKILs4g-_eukCxg_r6p-tZ_4GdsTqs3Wewh1PXd6Ls67-HXCd13D6ha.png" alt="">
-        <img src="./img/top-10.png" alt="top 10" class="top-10">
-        <h1 class="watch-now">Assista à 1 temporada agora</h1>
-        <p class="synopsis"> Centenas de jogadores falidos aceitam estranho convite para um jogo de sobrevivência. Um prêmio milionário aguarda, mas as apostas são altas e mortais.</p>
-        <button class="watch"> ▶ Assitir</button>
-        <button class="more-info"> ⓘ Mais informações</button>
-    </div>
-    <div>
-        <span class="title-list">My list</span>
-    </div>
-    </header> 
-    <div class="wrapper">
+                <a class="navbar-options" href="#">Home</a>
+                <a class="navbar-options" href="#">TV shows</a>
+                <a class="navbar-options" href="#">Movies</a>
+                <a class="navbar-options" href="#">New & Popular</a>
+                <a class="navbar-options" href="#">My list</a>
+                
+                <div class="container-perfil">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-bell"></i>
+                    <a><img src="./img/flat,1000x1000,075,f.u2.jpg" alt="profile picture" class="profile-img"></a>
+                    <a><i class="fas fa-sort-down"></i></a>            
+                </div>
+            </div>
+        </nav>
+
         <section>
+            <div>
+                <img class="round-6" src="./img/AAAABTVKvb24ajFpmJrw7vxLLsr1oZfjkxuoWzmwiMM9gE08AmFBwjFmZntDqUtWsQEPmv4c1mqM3ChyPruYARd2x05N5-LHGLHrFYdPYmkqwZ23ObUzEdMAKILs4g-_eukCxg_r6p-tZ_4GdsTqs3Wewh1PXd6Ls67-HXCd13D6ha.png" alt="">
+                <img src="./img/top-10.png" alt="top 10" class="top-10">
+                <h1 class="watch-now">Assista à 1 temporada agora</h1>
+                <p class="synopsis"> Centenas de jogadores falidos aceitam estranho convite para um jogo de sobrevivência. Um prêmio milionário aguarda, mas as apostas são altas e mortais.</p>
+                <button class="watch"> ▶ Assitir</button>
+                <button class="more-info"> ⓘ Mais informações</button>
+            </div>
+        </section>   
+    </header> 
+    <section class="slider-box">
+            <h2 class="title-list">My list</h2>
             <div class="img-gallery">
-                <button class="btn-prev"><i class="fas fa-chevron-left"></i></button>
-                <ul class="gallery-row">
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/143/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/45/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/541/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/152/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/123/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/431/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/231/300/200" alt="image"></li>
-                </ul>
-                <ul class="gallery-row2">
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                    <li class="img-wrap"><img src="https://picsum.photos/id/1/300/200" alt="image"></li>
-                </ul>
-                <button class="btn-next"><i class="fas fa-chevron-right"></i></button>      
-            </div> 
+                    <img src="https://picsum.photos/id/16/300/200" alt="image"><
+                    <img src="https://picsum.photos/id/13/300/200" alt="image">
+                    <img src="https://picsum.photos/id/45/300/200" alt="image">
+                    <img src="https://picsum.photos/id/541/300/200" alt="image">
+                    <img src="https://picsum.photos/id/152/300/200" alt="image">
+                    <img src="https://picsum.photos/id/123/300/200" alt="image">
+                    <img src="https://picsum.photos/id/431/300/200" alt="image">
+                    <img src="https://picsum.photos/id/231/300/200" alt="image">
+                    <img src="https://picsum.photos/id/211/300/200" alt="image">
+                    <img src="https://picsum.photos/id/143/300/200" alt="image">
+                    <img src="https://picsum.photos/id/154/300/200" alt="image">
+                    <img src="https://picsum.photos/id/154/300/200" alt="image">
+                    <img src="https://picsum.photos/id/165/300/200" alt="image">
+                    <img src="https://picsum.photos/id/134/300/200" alt="image">
+                    <img src="https://picsum.photos/id/154/300/200" alt="image">
+                    <img src="https://picsum.photos/id/133/300/200" alt="image">    
+                </div> 
         </section> 
-    </div> 
-    
-            <span class="title-row">Continue Watching</span>
-            <div class="img-gallery"></div>   
 
-            <span class="title-row">TV Shows</span>
-            <div class="img-gallery"></div>   
+        <section class="top-ten">
+            <h3 class="title-row">Continue Watching</h3>
+            <div class="watching">  
+                <img src="https://picsum.photos/id/431/300/200" alt="image">
+                <img src="https://picsum.photos/id/653/300/200" alt="image">
+                <img src="https://picsum.photos/id/544/300/200" alt="image">
+                <img src="https://picsum.photos/id/654/300/200" alt="image">
+                <img src="https://picsum.photos/id/165/300/200" alt="image">
+                <img src="https://picsum.photos/id/134/300/200" alt="image">
+                <img src="https://picsum.photos/id/154/300/200" alt="image">
+                <img src="https://picsum.photos/id/133/300/200" alt="image">  
+                <img src="https://picsum.photos/id/1/300/200" alt="image">
+                <img src="https://picsum.photos/id/43/300/200" alt="image">
+                <img src="https://picsum.photos/id/45/300/200" alt="image">
+                <img src="https://picsum.photos/id/541/300/200" alt="image">
+                <img src="https://picsum.photos/id/12/300/200" alt="image">
+                <img src="https://picsum.photos/id/543/300/200" alt="image">
+                <img src="https://picsum.photos/id/431/300/200" alt="image">
+                <img src="https://picsum.photos/id/231/300/200" alt="image">
+  
+            </div>    
+        </section>
    
 <footer class="footer">
     <div class="social-link">
@@ -109,7 +124,10 @@
         <span>{7ed528c7-1e47-40ab-8181-a4df69f2aa4f}</span>
     </div>
 </footer>
+<script src="js/jquery-3.6.0.js"></script>
 <script src="js/botaoAvanca.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/slick.js"></script>
 </body>
 
 </html>
