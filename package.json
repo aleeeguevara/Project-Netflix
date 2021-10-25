@@ -1,0 +1,23 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleeeguevara/Project-Netflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleeeguevara/Project-Netflix/issues"
+  },
+  "homepage": "https://github.com/aleeeguevara/Project-Netflix#readme",
+  "devDependencies": {
+    "serve": "^12.0.1"
+  }
+}
