@@ -6,10 +6,13 @@ body{
     align-items:center;
     margin-top: 5px;
     padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
 
 }
 .netflix{
-    margin-left: 4em; 
+    /*margin-left: 4em; */
     margin-right: 2em;
     width: 9em;  
 }
@@ -22,22 +25,39 @@ body{
     background-color: black;
     opacity: 0.6;
 }
-.navbar-options{    
+.navbar-options-home{
     color: #e5e5e5;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
     font-style: normal;
     text-decoration: none; 
-    padding: .5em;    
+    padding: .6em; 
+    display: flex;   
+    align-items: center;
+    white-space: nowrap;  
+}
+.navbar-options{    
+    color: #e5e5e5;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none; 
+    padding: .6em; 
+    display: flex;   
+    align-items: center;
+    white-space: nowrap;
 }
 .navbar-options:hover{
-    font-weight: bold;
+    opacity: 0.6;
     transition: ease-in-out;
 }
 .container-perfil{
     display: flex;
     justify-content: flex-end;
     margin-right: 2em;
+    width: 70%;
 }
 
 .nav-right{
@@ -47,7 +67,7 @@ body{
    color: #ffff; 
    font-size: 30px;
    margin-right: 1px;
-   margin-left: 50em;
+   margin-left: 30px;
 }
 .fa-bell{
     color: #ffff;
